@@ -1,0 +1,6 @@
+﻿
+BankLabel   Capacity Speed Manufacturer     
+---------   -------- ----- ------------     
+BANK 0    8589934592  3200 Micron Technology
+
+

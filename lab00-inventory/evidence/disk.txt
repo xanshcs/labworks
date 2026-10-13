@@ -1,0 +1,13 @@
+﻿
+FriendlyName                    MediaType BusType         Size
+------------                    --------- -------         ----
+NVMe SAMSUNG MZVLQ512HBLU-00B00 SSD       NVMe    512110190592
+
+
+
+DriveLetter         Size SizeRemaining
+-----------         ---- -------------
+              1156575232     119926784
+C           510828462080   94469369856
+
+

@@ -1,0 +1,1 @@
+﻿Firmware: Uefi; VirtualizationFirmwareEnabled=True; HypervisorPresent=False
