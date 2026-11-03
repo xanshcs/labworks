@@ -1,0 +1,26 @@
+# Peer Review – Ticket 1
+
+**Reviewer:** Nurgazy Erkezhan 
+**Date:** November 3, 2026
+
+## 1. What I reviewed
+
+I reviewed the BUILD.md instructions and examined the Ubuntu and Windows virtual machines. I checked the configuration details, including RAM allocation, CPU cores, virtual disk sizes, and network settings. I also reviewed the steps explaining how to configure internet access and establish communication between the two virtual machines.
+
+## 2. First point where I got stuck
+
+I did not encounter any difficulties while following the instructions. The steps were clear, logically organized, and easy to understand. The virtual machine configurations were also presented clearly, so I could understand what settings were used and how the environment was organized.
+
+## 3. Suggested correction
+
+I do not have any major corrections to suggest. The instructions cover the important stages of creating and configuring both virtual machines. The explanations of network configuration and connection testing are understandable. Overall, the guide provides enough information to follow the setup process.
+
+## 4. Final feedback
+
+Overall, the work is well organized and meets the main requirements of the task. Both Ubuntu and Windows virtual machines are configured, and the documentation explains their hardware settings and network configuration.
+
+The BUILD.md guide is clear and provides a logical step-by-step explanation of the process. The network testing instructions are especially useful because they explain how to check internet connectivity and communication between the guest systems.
+
+I also think the evidence is helpful because it demonstrates the actual configuration and connection tests. The troubleshooting explanation about Windows Firewall is a good addition, as it shows how a real network problem was identified and resolved.
+
+My overall impression is positive. The instructions are understandable, the virtual machine setup is clearly documented, and I would not recommend any major changes.
