@@ -1,4 +1,3 @@
-Markdown
 # Lab 4 — Storage
 
 ## Windows
@@ -16,8 +15,9 @@ DriveLetter         : E
 PartitionNumber     : 1
 Size                : 2 GB
 Type                : Basic
-Linux layout — before
-Plaintext
+
+## Linux layout — before
+
 NAME                       SIZE TYPE FSTYPE      MOUNTPOINT
 loop0                     66.8M loop squashfs    /snap/core24/2124
 loop1                     50.1M loop squashfs    /snap/snapd/27710
@@ -32,9 +32,10 @@ sda                         20G disk
 sdb                          2G disk             
 sdc                          2G disk             
 sdd                          2G disk             
-sr0                        2.7G rom  iso9660     
-Linux layout — after the rebuild
-Plaintext
+sr0                        2.7G rom  iso9660
+
+## Linux layout — after the rebuild
+
 NAME                      SIZE TYPE FSTYPE      MOUNTPOINT
 sda                        20G disk             
 ├─sda1                      1M part             
@@ -49,11 +50,9 @@ sdc                         2G disk
 sdd                         2G disk             
 └─sdd1                      2G part raid        
   └─md0                     2G ext4         /mnt/mirror
-Role	Device
-Mirror half A	sdb1
-Failed half	sdc1
-Replacement	sdd1
-The question
+
+## The question
+
 Your colleague deleted the wrong file from the mirror an hour ago. Does RAID 1 help? Why?
 
 No, RAID 1 does not help because a mirror instantly replicates every write and deletion across all active disks in the array. Since the deletion command is treated as a normal write operation, the file is simultaneously removed from both halves of the mirror. A proper backup or snapshot history would have helped restore the deleted file instead.
