@@ -4,7 +4,7 @@
 Disk 0: partition style GPT, firmware_type UEFI — because the system booted in UEFI mode which requires a GPT partition table.
 New disk: partition style GPT — because it supports modern standards, sizes well beyond 2 TB, and has no legacy MBR limitations.
 
-```text
+
 DiskPath            : \\?\physicaldisk1
 PartitionStyle      : GPT
 TotalSize           : 2 GB
